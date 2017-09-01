@@ -1,11 +1,9 @@
 import { Element as PolymerElement } from '../../@polymer/polymer/polymer-element.js';
+import '../../@ggcity/leaflet-iife/dist/leaflet.js';
 
 export class LeafletTileLayer extends PolymerElement {
   static get properties() {
     return {
-      leaflet: {
-        type: Object
-      },
       map: {
         type: Object,
         observer: '_mapSet'
@@ -26,7 +24,7 @@ export class LeafletTileLayer extends PolymerElement {
   }
 
   _mapSet() {
-    this.leaflet.tileLayer(this.url, {
+    L.tileLayer(this.url, {
       minZoom: this.minZoom,
       maxZoom: this.maxZoom,
       attribution: this.attribution
