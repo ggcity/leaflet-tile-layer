@@ -13,23 +13,25 @@ This currently comes in as pure ES6 only.
 Usage
 -----
 
-    <script type="module" src="./node_modules/@ggcity/leaflet-map/leaflet-map.js"></script>
-    <script type="module" src="./node_modules/@ggcity/leaflet-tile-layer/leaflet-tile-layer.js"></script>
+```html
+<script type="module" src="./node_modules/@ggcity/leaflet-map/leaflet-map.js"></script>
+<script type="module" src="./node_modules/@ggcity/leaflet-tile-layer/leaflet-tile-layer.js"></script>
 
-    <leaflet-map
-      latitude="33.778724"
-      longitude="-117.960058"
-      zoom="13"
-      min-zoom="11"
-      max-zoom="19"
-      attribution-prefix="City of Garden Grove"
-    >
-        <leaflet-tile-layer
-          base
-          url="//www.ci.garden-grove.ca.us/tileserver/styles/gg-basic/{z}/{x}/{y}.png"
-          attribution="&copy; OpenStreetMap"
-        ></leaflet-tile-layer>
-    </leaflet-map>
+<leaflet-map
+  latitude="33.778724"
+  longitude="-117.960058"
+  zoom="13"
+  min-zoom="11"
+  max-zoom="19"
+  attribution-prefix="City of Garden Grove"
+>
+    <leaflet-tile-layer
+      base
+      url="//www.ci.garden-grove.ca.us/tileserver/styles/gg-basic/{z}/{x}/{y}.png"
+      attribution="&copy; OpenStreetMap"
+    ></leaflet-tile-layer>
+</leaflet-map>
+```
 
 Maintainers
 -----------
