@@ -1,0 +1,13 @@
+{
+  "name": "@ggcity/leaflet-tile-layer",
+  "version": "0.1.0",
+  "description": "Leaflet TileLayer Web Component",
+  "main": "index.js",
+  "repository": "https://github.com/ggcity/leaflet-tile-layer",
+  "author": "Rachot Moragraan",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@polymer/polymer": "next",
+    "@ggcity/leaflet-map": "ggcity/leaflet-map"
+  }
+}
