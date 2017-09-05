@@ -2,10 +2,6 @@
 # yarn lockfile v1
 
 
-"@ggcity/leaflet-iife@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@ggcity/leaflet-iife/-/leaflet-iife-1.2.0.tgz#76780202f9c40d581f4c79ca803299833ef5f058"
-
 "@ggcity/leaflet-map@ggcity/leaflet-map":
   version "0.1.0"
   resolved "https://codeload.github.com/ggcity/leaflet-map/tar.gz/684c75a3eb2b6b94473d6a3d4895edd030ced1ec"

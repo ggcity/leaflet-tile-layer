@@ -23,13 +23,14 @@ Usage
   zoom="13"
   min-zoom="11"
   max-zoom="19"
-  attribution-prefix="City of Garden Grove"
->
+  attribution-prefix="City of Garden Grove">
+
     <leaflet-tile-layer
       base
       url="//www.ci.garden-grove.ca.us/tileserver/styles/gg-basic/{z}/{x}/{y}.png"
-      attribution="&copy; OpenStreetMap"
-    ></leaflet-tile-layer>
+      attribution="&copy; OpenStreetMap">
+    </leaflet-tile-layer>
+    
 </leaflet-map>
 ```
 

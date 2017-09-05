@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+  <title>leaflet-tile-layer demo</title>
+
+  <script>
+    window.customElements.forcePolyfill = true;
+  </script>
+  <script src="https://unpkg.com/@webcomponents/webcomponentsjs@1.0.10/webcomponents-lite.js"></script>
+  <script type="module" src="./bundle.js"></script>
+
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>  
+  <leaflet-map
+    latitude="33.778724"
+    longitude="-117.960058"
+    zoom="13"
+    min-zoom="11"
+    max-zoom="19"
+    attribution-prefix="City of Garden Grove"
+  >
+    <leaflet-tile-layer
+      base
+      url="//www.ci.garden-grove.ca.us/tileserver/styles/gg-basic/{z}/{x}/{y}.png"
+      attribution="&copy; OpenStreetMap"
+    ></leaflet-tile-layer>
+  </leaflet-map>
+
+</body>
+
+</html>
