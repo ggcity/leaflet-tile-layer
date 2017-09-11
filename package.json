@@ -1,6 +1,6 @@
 {
   "name": "@ggcity/leaflet-tile-layer",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Leaflet TileLayer Web Component",
   "main": "index.js",
   "repository": "https://github.com/ggcity/leaflet-tile-layer",
