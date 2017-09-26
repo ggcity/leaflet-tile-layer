@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@ggcity/leaflet-map@ggcity/leaflet-map":
-  version "0.1.0"
-  resolved "https://codeload.github.com/ggcity/leaflet-map/tar.gz/684c75a3eb2b6b94473d6a3d4895edd030ced1ec"
+"@ggcity/leaflet-map@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@ggcity/leaflet-map/-/leaflet-map-0.4.0.tgz#b80fccc677fb78f7272635f3c2d2dd78ffb69a10"
   dependencies:
     "@polymer/polymer" next
     leaflet "^1.2.0"

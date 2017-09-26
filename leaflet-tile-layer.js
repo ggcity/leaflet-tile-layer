@@ -1,6 +1,5 @@
 import { Element as PolymerElement } from '../../@polymer/polymer/polymer-element.js';
 
-import { LeafletMap } from '../../@ggcity/leaflet-map/leaflet-map.js';
 import { TileLayer } from '../../leaflet/src/layer/tile/TileLayer.js';
 import { TileLayerWMS } from '../../leaflet/src/layer/tile/TileLayer.WMS.js';
 

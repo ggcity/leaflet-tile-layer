@@ -8,7 +8,7 @@
   "license": "GPL-3.0",
   "flat": true,
   "dependencies": {
-    "@ggcity/leaflet-map": "ggcity/leaflet-map",
+    "@ggcity/leaflet-map": "0.4.0",
     "@polymer/polymer": "next",
     "leaflet": "^1.2.0"
   }
